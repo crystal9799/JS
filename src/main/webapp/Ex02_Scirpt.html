@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*
+            Javascript 웹 브라우져가 해석 ( 자원들 : 객체들 ) >> 크롬 , 사파리 (해석기능(엔진) + 내장객체)
+        */
+        window.document.write("방가방가<br>");
+        //window 생략
+        document.write("윈도우 객체는 일반적으로 생략 가능하다.<br>");
+        console.log("디버깅 , 결과 미리보기 , 오류메시지 확인");
+        console.log(10+10);
+
+        document.write("<b>hello world</b>");
+        document.write('<table border="1"');
+        document.write('<tr><td>aa</td><td>bb</td></tr>');
+        document.write('</table>');
+
+        //var , let , const
+        var num; //타입이 정해지지 않았다. (정수,실수,문자,문자열,날짜 ...)
+        console.log(num); //undefined 오류메시지가 아니고 정상적인 출력 메시지
+        num=10; //값을 가지는 순간 타입 결정
+        console.log("num : " + num);
+
+        let num2=100;
+        console.log(num2);
+        console.log(typeof(num)); // number
+
+        //javascript는 순서대로 실행된다. POINT
+        // let element = window.document.forms[0].elements[0];
+        // console.log(typeof(element));
+
+        //순서에 상관없이 프로그래밍 (함수를 만들어서 호출)
+        function data(){
+            let element = window.document.forms[0].elements[0];
+            console.log(element);
+        }
+    </script>
+</head>
+<body>
+    <form action="#" method="get" name="myform">
+        <input type="text" name="userid" value="hong"><br>
+        <input type="password" name="pwd" value="1004"><br>
+        <input type="submit" value="전송">
+    </form>
+    <input type="button" value="함수호출" onclick="data()">
+</body>
+<script>
+    let element = window.document.forms[0].elements[0];
+    console.log(element);
+    //element >> <input type="text" name="userid" value="hong"><br>
+    console.log(element.value);
+    console.log(element.value.length);
+
+    let value = window.document.myform.userid.value;
+    console.log("타입 : " + typeof(value));
+
+    if(value.length < 5){
+        alert("다시 입력해");
+        element.value=""
+    }
+</script>
+</html>

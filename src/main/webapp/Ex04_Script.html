@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let name = 'kglim';
+        function call(){
+            let age=20;
+            console.log("당신의 이름은 : " + name + " 나이는 : " + age);
+        }
+
+        let n; //초기화 되지 않은 것. (정의되지 않았다.)
+        console.log(n); //undefined
+        n = 100;
+        //사용하기 전에만 초기화 하시면 되요
+
+        let i,j;
+        i=200;
+        j=200;
+        let result = i+j;
+        console.log(result);
+
+        let intnum = 10;    //정수
+        let dnum = 12.345;  //실수
+        let flag = true;    //boolean
+        let str = null;     //값이 없다
+        let str2 = "ABC";  //문자
+
+        console.log(typeof(intnum));    //number
+        console.log(typeof(dnum));      //number
+        console.log(typeof(flag));      //boolean
+        console.log(typeof(str));       //object
+        console.log(typeof(str2));      //string
+
+        //연산자
+        //산술(+,-,*,/,%) , 논리 , 관계
+
+        let num1 = 10;
+        let num2 = 3;
+        document.write((num1/num2) + "<br>");   // 실수 범위
+        document.write((num1%num2) + "<br>");
+
+        //관계  == (=== 값도 같고 타입도 같아야 함) ...
+        let a = 3;
+        let b = 3;
+        console.log(a==b);
+        console.log(a!=b);
+        console.log(a>b);
+        console.log(a===b);
+
+        //논리 (&& , ||)
+        console.log((10 > 5) && (1 != 3));  //둘다 참이면 true
+        console.log((10 < 5) || (1 != 3));  //둘중 하나만 참이면 true
+
+        //삼항 연산자
+        let result2 = (4%2 == 0) ? "짝수": "홀수";
+        console.log(result2);   //짝수
+
+        //대입 연산자(+= , -= , *= , /=)
+        let p = 10;
+        let k = 5;
+        p+=k; // p = p + k
+        console.log(p);
+
+        let x = 5+5;
+        let y = "5" + 5; // + 산술 , 결합
+        console.log(x);
+        console.log(y); //결합 (55 라는 문자)
+
+        let v ="5";
+        let v2 = 5;
+        let v3 = 5;
+        console.log(v == v2);   //값을 비교하는 연산자    TRUE
+        console.log(v === v2);  //POINT 값만 같은 것이 아니라 타입도 동일해야 TRUE   >>  FALSE (타입이 다르다)
+        console.log(v2 === v3); //TRUE 값도 같고 타입도 같으면 TRUE
+
+    </script>
+</head>
+<body>
+    <button onclick="call()">변수확인</button>
+</body>
+</html>

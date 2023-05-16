@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let Member = {};
+        Member.name="hong"; //{name : "hong"}
+        console.log(Member);
+        console.log(Member.name);
+
+        Member.age = 100;
+
+        //함수 추가
+        Member.print = function(){
+            document.write("<br>" + this.name + " / " + this.age + "<br>");
+        }
+
+        Member.print();
+
+        //JSON 객체 만들기
+        let Grade = {
+            "list":{"hong":10 , "kim":20 , "park":30},
+            "show":function(){
+                for(let key in this.list){
+                    document.write(key + ":" + this.list[key] + "<br>");
+                }
+            }
+        };
+        Grade.show();
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

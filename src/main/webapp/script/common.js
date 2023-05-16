@@ -1,0 +1,3 @@
+function ecal() {
+    alert("external");
+}
