@@ -93,6 +93,54 @@
   1. Array.forEach(function(value,index,array){})
   2. Array.map()
   */
+  
+  //<p id="demo2"></p>
+  function myFunc(){
+    const data = ["A","B","C","D"];
+    let x = document.getElementById("demo2");
+    x.innerHTML = Array.isArray(data);  //너 배열 맞니 (true , false)
+  }
+
+  myFunc(); //함수 호출
+
+  let txt="";
+  const numbers=[45,5,8,16,25];
+  //Array.forEach(function(value,index,array){})
+  //니가 가지고 있는 배열의 개수 만큼 함수 호출할 꺼야 (parameter 값을 전달해 줄게 잘 써먹어 봐 ...)
+  function myFunc2(value,index,array){  //myFunc2(x , y , z)
+    txt="(" + value + ")" + "[" + index + "]" + "[" + array + "]";
+    console.log(txt);
+  }
+  numbers.forEach(myFunc2); //callback 배열 개수 만큼 자동 호출
+
+  const numbers2 = [65, 44, 12, 4];
+const newArr = numbers2.map(myFunction);
+
+document.getElementById("demo").innerHTML = newArr;
+
+function myFunction(value,index,array) {
+  return value * 10 + index;
+}
+console.log(newArr);
+
+//응용하기
+//화살표 함수 Array 함수
+let evens=[2,4,6,8];
+// let odds = evens.map(function(value){return value+1})
+let odds = evens.map(value => value+1);
+console.log(odds);
+
+// let nums = evens.map(function(value,index){return value+index});
+let nums = evens.map((value,index)=>value+index);
+console.log(nums);
+
+let arr=[];
+evens.forEach(value=>{
+  if(value % 2 ===0){
+    arr.push(value);
+  }
+});
+console.log(arr);
 </script>
 
 </html>
