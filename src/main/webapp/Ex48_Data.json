@@ -1,0 +1,392 @@
+{
+  "resultCode": "00",
+  "resultMsg": "NORMAL SERVICE",
+  "numOfRows": "10",
+  "pageNo": "1",
+  "totalCount": 9,
+  "items": [{
+      "yr": "2018",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 2795,
+      "indutyJngSeBrandCnt": 2185,
+      "indutyLclasBrandCntRt": 78.18
+    },
+    {
+      "yr": "2018",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 2795,
+      "indutyJngSeBrandCnt": 121,
+      "indutyLclasBrandCntRt": 4.33
+    },
+    {
+      "yr": "2018",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 2795,
+      "indutyJngSeBrandCnt": 489,
+      "indutyLclasBrandCntRt": 17.5
+    },
+    {
+      "yr": "2018",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 1680,
+      "indutyJngSeBrandCnt": 1236,
+      "indutyLclasBrandCntRt": 73.57
+    },
+    {
+      "yr": "2018",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 1680,
+      "indutyJngSeBrandCnt": 90,
+      "indutyLclasBrandCntRt": 5.36
+    },
+    {
+      "yr": "2018",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 1680,
+      "indutyJngSeBrandCnt": 354,
+      "indutyLclasBrandCntRt": 21.07
+    },
+    {
+      "yr": "2018",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 366,
+      "indutyJngSeBrandCnt": 205,
+      "indutyLclasBrandCntRt": 56.01
+    },
+    {
+      "yr": "2018",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 366,
+      "indutyJngSeBrandCnt": 44,
+      "indutyLclasBrandCntRt": 12.02
+    },
+    {
+      "yr": "2018",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 366,
+      "indutyJngSeBrandCnt": 117,
+      "indutyLclasBrandCntRt": 31.97
+    }
+  ],
+  "resultCode": "00",
+  "resultMsg": "NORMAL SERVICE",
+  "numOfRows": "10",
+  "pageNo": "1",
+  "totalCount": 9,
+  "items": [{
+      "yr": "2019",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 3002,
+      "indutyJngSeBrandCnt": 2366,
+      "indutyLclasBrandCntRt": 78.81
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 3002,
+      "indutyJngSeBrandCnt": 120,
+      "indutyLclasBrandCntRt": 4
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 3002,
+      "indutyJngSeBrandCnt": 516,
+      "indutyLclasBrandCntRt": 17.19
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 1804,
+      "indutyJngSeBrandCnt": 1320,
+      "indutyLclasBrandCntRt": 73.17
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 1804,
+      "indutyJngSeBrandCnt": 86,
+      "indutyLclasBrandCntRt": 4.77
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 1804,
+      "indutyJngSeBrandCnt": 398,
+      "indutyLclasBrandCntRt": 22.06
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 381,
+      "indutyJngSeBrandCnt": 222,
+      "indutyLclasBrandCntRt": 58.27
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 381,
+      "indutyJngSeBrandCnt": 40,
+      "indutyLclasBrandCntRt": 10.5
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 381,
+      "indutyJngSeBrandCnt": 119,
+      "indutyLclasBrandCntRt": 31.23
+    }
+  ],
+  "resultCode": "00",
+  "resultMsg": "NORMAL SERVICE",
+  "numOfRows": "10",
+  "pageNo": "1",
+  "totalCount": 9,
+  "items": [{
+      "yr": "2020",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 3786,
+      "indutyJngSeBrandCnt": 2998,
+      "indutyLclasBrandCntRt": 79.19
+    },
+    {
+      "yr": "2020",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 3786,
+      "indutyJngSeBrandCnt": 158,
+      "indutyLclasBrandCntRt": 4.17
+    },
+    {
+      "yr": "2020",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 3786,
+      "indutyJngSeBrandCnt": 630,
+      "indutyLclasBrandCntRt": 16.64
+    },
+    {
+      "yr": "2020",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 1935,
+      "indutyJngSeBrandCnt": 1432,
+      "indutyLclasBrandCntRt": 74.01
+    },
+    {
+      "yr": "2020",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 1935,
+      "indutyJngSeBrandCnt": 92,
+      "indutyLclasBrandCntRt": 4.75
+    },
+    {
+      "yr": "2020",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 1935,
+      "indutyJngSeBrandCnt": 411,
+      "indutyLclasBrandCntRt": 21.24
+    },
+    {
+      "yr": "2020",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 396,
+      "indutyJngSeBrandCnt": 233,
+      "indutyLclasBrandCntRt": 58.84
+    },
+    {
+      "yr": "2020",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 396,
+      "indutyJngSeBrandCnt": 35,
+      "indutyLclasBrandCntRt": 8.84
+    },
+    {
+      "yr": "2020",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 396,
+      "indutyJngSeBrandCnt": 128,
+      "indutyLclasBrandCntRt": 32.32
+    }
+  ],
+  "resultCode": "00",
+  "resultMsg": "NORMAL SERVICE",
+  "numOfRows": "10",
+  "pageNo": "1",
+  "totalCount": 9,
+  "items": [{
+      "yr": "2021",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 8231,
+      "indutyJngSeBrandCnt": 6806,
+      "indutyLclasBrandCntRt": 82.69
+    },
+    {
+      "yr": "2021",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 8231,
+      "indutyJngSeBrandCnt": 407,
+      "indutyLclasBrandCntRt": 4.94
+    },
+    {
+      "yr": "2021",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 8231,
+      "indutyJngSeBrandCnt": 1018,
+      "indutyLclasBrandCntRt": 12.37
+    },
+    {
+      "yr": "2021",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 2138,
+      "indutyJngSeBrandCnt": 1598,
+      "indutyLclasBrandCntRt": 74.74
+    },
+    {
+      "yr": "2021",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 2138,
+      "indutyJngSeBrandCnt": 101,
+      "indutyLclasBrandCntRt": 4.72
+    },
+    {
+      "yr": "2021",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 2138,
+      "indutyJngSeBrandCnt": 439,
+      "indutyLclasBrandCntRt": 20.53
+    },
+    {
+      "yr": "2021",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 391,
+      "indutyJngSeBrandCnt": 239,
+      "indutyLclasBrandCntRt": 61.13
+    },
+    {
+      "yr": "2021",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 391,
+      "indutyJngSeBrandCnt": 34,
+      "indutyLclasBrandCntRt": 8.7
+    },
+    {
+      "yr": "2021",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 391,
+      "indutyJngSeBrandCnt": 118,
+      "indutyLclasBrandCntRt": 30.18
+    }
+  ],
+  "resultCode": "00",
+  "resultMsg": "NORMAL SERVICE",
+  "numOfRows": "10",
+  "pageNo": "1",
+  "totalCount": 9,
+  "items": [{
+      "yr": "2022",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 8010,
+      "indutyJngSeBrandCnt": 6599,
+      "indutyLclasBrandCntRt": 82.38
+    },
+    {
+      "yr": "2022",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 8010,
+      "indutyJngSeBrandCnt": 386,
+      "indutyLclasBrandCntRt": 4.82
+    },
+    {
+      "yr": "2022",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "10개 미만",
+      "frcsSeBrandCnt": 8010,
+      "indutyJngSeBrandCnt": 1025,
+      "indutyLclasBrandCntRt": 12.8
+    },
+    {
+      "yr": "2022",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 2524,
+      "indutyJngSeBrandCnt": 1907,
+      "indutyLclasBrandCntRt": 75.55
+    },
+    {
+      "yr": "2022",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 2524,
+      "indutyJngSeBrandCnt": 129,
+      "indutyLclasBrandCntRt": 5.11
+    },
+    {
+      "yr": "2022",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "10~99개",
+      "frcsSeBrandCnt": 2524,
+      "indutyJngSeBrandCnt": 488,
+      "indutyLclasBrandCntRt": 19.33
+    },
+    {
+      "yr": "2022",
+      "indutyLclasNm": "외식",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 442,
+      "indutyJngSeBrandCnt": 277,
+      "indutyLclasBrandCntRt": 62.67
+    },
+    {
+      "yr": "2022",
+      "indutyLclasNm": "도소매",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 442,
+      "indutyJngSeBrandCnt": 37,
+      "indutyLclasBrandCntRt": 8.37
+    },
+    {
+      "yr": "2022",
+      "indutyLclasNm": "서비스",
+      "frcsSeNm": "100개이상",
+      "frcsSeBrandCnt": 442,
+      "indutyJngSeBrandCnt": 128,
+      "indutyLclasBrandCntRt": 28.96
+    }
+  ]
+}

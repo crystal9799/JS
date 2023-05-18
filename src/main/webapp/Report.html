@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    //연도별 
+    const data = [{
+        "items": [{
+            "yr": "2018",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 2795,
+            "indutyJngSeBrandCnt": 2185,
+            "indutyLclasBrandCntRt": 78.18
+          },
+          {
+            "yr": "2018",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 2795,
+            "indutyJngSeBrandCnt": 121,
+            "indutyLclasBrandCntRt": 4.33
+          },
+          {
+            "yr": "2018",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 2795,
+            "indutyJngSeBrandCnt": 489,
+            "indutyLclasBrandCntRt": 17.5
+          },
+          {
+            "yr": "2018",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 1680,
+            "indutyJngSeBrandCnt": 1236,
+            "indutyLclasBrandCntRt": 73.57
+          },
+          {
+            "yr": "2018",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 1680,
+            "indutyJngSeBrandCnt": 90,
+            "indutyLclasBrandCntRt": 5.36
+          },
+          {
+            "yr": "2018",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 1680,
+            "indutyJngSeBrandCnt": 354,
+            "indutyLclasBrandCntRt": 21.07
+          },
+          {
+            "yr": "2018",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 366,
+            "indutyJngSeBrandCnt": 205,
+            "indutyLclasBrandCntRt": 56.01
+          },
+          {
+            "yr": "2018",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 366,
+            "indutyJngSeBrandCnt": 44,
+            "indutyLclasBrandCntRt": 12.02
+          },
+          {
+            "yr": "2018",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 366,
+            "indutyJngSeBrandCnt": 117,
+            "indutyLclasBrandCntRt": 31.97
+          }
+        ]
+      },
+      {
+        "items": [{
+            "yr": "2019",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 3002,
+            "indutyJngSeBrandCnt": 2366,
+            "indutyLclasBrandCntRt": 78.81
+          },
+          {
+            "yr": "2019",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 3002,
+            "indutyJngSeBrandCnt": 120,
+            "indutyLclasBrandCntRt": 4
+          },
+          {
+            "yr": "2019",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 3002,
+            "indutyJngSeBrandCnt": 516,
+            "indutyLclasBrandCntRt": 17.19
+          },
+          {
+            "yr": "2019",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 1804,
+            "indutyJngSeBrandCnt": 1320,
+            "indutyLclasBrandCntRt": 73.17
+          },
+          {
+            "yr": "2019",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 1804,
+            "indutyJngSeBrandCnt": 86,
+            "indutyLclasBrandCntRt": 4.77
+          },
+          {
+            "yr": "2019",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 1804,
+            "indutyJngSeBrandCnt": 398,
+            "indutyLclasBrandCntRt": 22.06
+          },
+          {
+            "yr": "2019",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 381,
+            "indutyJngSeBrandCnt": 222,
+            "indutyLclasBrandCntRt": 58.27
+          },
+          {
+            "yr": "2019",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 381,
+            "indutyJngSeBrandCnt": 40,
+            "indutyLclasBrandCntRt": 10.5
+          },
+          {
+            "yr": "2019",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 381,
+            "indutyJngSeBrandCnt": 119,
+            "indutyLclasBrandCntRt": 31.23
+          }
+        ]
+      },
+      {
+        "items": [{
+            "yr": "2020",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 3786,
+            "indutyJngSeBrandCnt": 2998,
+            "indutyLclasBrandCntRt": 79.19
+          },
+          {
+            "yr": "2020",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 3786,
+            "indutyJngSeBrandCnt": 158,
+            "indutyLclasBrandCntRt": 4.17
+          },
+          {
+            "yr": "2020",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 3786,
+            "indutyJngSeBrandCnt": 630,
+            "indutyLclasBrandCntRt": 16.64
+          },
+          {
+            "yr": "2020",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 1935,
+            "indutyJngSeBrandCnt": 1432,
+            "indutyLclasBrandCntRt": 74.01
+          },
+          {
+            "yr": "2020",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 1935,
+            "indutyJngSeBrandCnt": 92,
+            "indutyLclasBrandCntRt": 4.75
+          },
+          {
+            "yr": "2020",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 1935,
+            "indutyJngSeBrandCnt": 411,
+            "indutyLclasBrandCntRt": 21.24
+          },
+          {
+            "yr": "2020",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 396,
+            "indutyJngSeBrandCnt": 233,
+            "indutyLclasBrandCntRt": 58.84
+          },
+          {
+            "yr": "2020",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 396,
+            "indutyJngSeBrandCnt": 35,
+            "indutyLclasBrandCntRt": 8.84
+          },
+          {
+            "yr": "2020",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 396,
+            "indutyJngSeBrandCnt": 128,
+            "indutyLclasBrandCntRt": 32.32
+          }
+        ]
+      },
+      {
+        "items": [{
+            "yr": "2021",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 8231,
+            "indutyJngSeBrandCnt": 6806,
+            "indutyLclasBrandCntRt": 82.69
+          },
+          {
+            "yr": "2021",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 8231,
+            "indutyJngSeBrandCnt": 407,
+            "indutyLclasBrandCntRt": 4.94
+          },
+          {
+            "yr": "2021",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 8231,
+            "indutyJngSeBrandCnt": 1018,
+            "indutyLclasBrandCntRt": 12.37
+          },
+          {
+            "yr": "2021",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 2138,
+            "indutyJngSeBrandCnt": 1598,
+            "indutyLclasBrandCntRt": 74.74
+          },
+          {
+            "yr": "2021",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 2138,
+            "indutyJngSeBrandCnt": 101,
+            "indutyLclasBrandCntRt": 4.72
+          },
+          {
+            "yr": "2021",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 2138,
+            "indutyJngSeBrandCnt": 439,
+            "indutyLclasBrandCntRt": 20.53
+          },
+          {
+            "yr": "2021",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 391,
+            "indutyJngSeBrandCnt": 239,
+            "indutyLclasBrandCntRt": 61.13
+          },
+          {
+            "yr": "2021",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 391,
+            "indutyJngSeBrandCnt": 34,
+            "indutyLclasBrandCntRt": 8.7
+          },
+          {
+            "yr": "2021",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 391,
+            "indutyJngSeBrandCnt": 118,
+            "indutyLclasBrandCntRt": 30.18
+          }
+        ]
+      },
+      {
+        "items": [{
+            "yr": "2022",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 8010,
+            "indutyJngSeBrandCnt": 6599,
+            "indutyLclasBrandCntRt": 82.38
+          },
+          {
+            "yr": "2022",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 8010,
+            "indutyJngSeBrandCnt": 386,
+            "indutyLclasBrandCntRt": 4.82
+          },
+          {
+            "yr": "2022",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "10개 미만",
+            "frcsSeBrandCnt": 8010,
+            "indutyJngSeBrandCnt": 1025,
+            "indutyLclasBrandCntRt": 12.8
+          },
+          {
+            "yr": "2022",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 2524,
+            "indutyJngSeBrandCnt": 1907,
+            "indutyLclasBrandCntRt": 75.55
+          },
+          {
+            "yr": "2022",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 2524,
+            "indutyJngSeBrandCnt": 129,
+            "indutyLclasBrandCntRt": 5.11
+          },
+          {
+            "yr": "2022",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "10~99개",
+            "frcsSeBrandCnt": 2524,
+            "indutyJngSeBrandCnt": 488,
+            "indutyLclasBrandCntRt": 19.33
+          },
+          {
+            "yr": "2022",
+            "indutyLclasNm": "외식",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 442,
+            "indutyJngSeBrandCnt": 277,
+            "indutyLclasBrandCntRt": 62.67
+          },
+          {
+            "yr": "2022",
+            "indutyLclasNm": "도소매",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 442,
+            "indutyJngSeBrandCnt": 37,
+            "indutyLclasBrandCntRt": 8.37
+          },
+          {
+            "yr": "2022",
+            "indutyLclasNm": "서비스",
+            "frcsSeNm": "100개이상",
+            "frcsSeBrandCnt": 442,
+            "indutyJngSeBrandCnt": 128,
+            "indutyLclasBrandCntRt": 28.96
+          }
+        ]
+      }
+    ]
+
+    let year = [];
+
+    for (let index in data) {
+      let count = data[index];
+      let button = document.getElementById('button');
+
+      year.push(data[index].items[0].yr);
+
+    }
+    // console.log(year);
+    window.onload = () => {
+      let menu = document.getElementById('drop-menu');
+      let button = document.getElementById('button');
+
+      for (let value of year) {
+        let newElement = document.createElement('li');
+        newElement.setAttribute("class", "dropdown-item");
+        newElement.setAttribute("value", value);
+        newElement.textContent = value;
+        menu.appendChild(newElement);
+      }
+
+
+      let gentable = function (count) {
+        let newTR = document.createElement('tr');
+
+        for (let i = 0; i < 8; i++) {
+          let newTD = document.createElement('td');
+          newTD.textContent = count.items[index]
+          newTR.appendChild(newTD);
+        }
+      }
+      menu.addEventListener('click', function (event) {
+        let tbody = document.getElementById("list");
+        while (tbody.firstChild) {
+        tbody.removeChild(tbody.firstChild);
+        }
+
+        let selectyear = event.target.getAttribute("value");
+        if (event.target.classList.contains('dropdown-item')) {
+
+          //event.target.getAttribute("value") : 드롭다운에서 선택한 아이템의 value값
+          button.textContent = "연도 선택 : " + selectyear;
+
+          for (let index in data) {
+            let count = data[index];
+            // let inputlist = [count.items[index].yr,count.items[index].indutyLclasNm,count.items[index].frcsSeBrandCnt,count.items[index].indutyJngSeBrandCnt];
+
+            if (count.items[0].yr === selectyear) {
+              for (let index in count.items) {
+                let inputlist = [count.items[index].yr,count.items[index].indutyLclasNm,count.items[index].frcsSeBrandCnt,count.items[index].indutyJngSeBrandCnt];
+
+                let tbody = document.getElementById("list");
+                let tr = document.createElement("tr");
+                for (let value of inputlist) {
+                  let td = document.createElement("td");
+                  td.textContent=value;
+
+                  tr.appendChild(td);
+                }
+                document.getElementById("list").appendChild(tr);
+              }
+            }
+          }
+        }
+
+
+      });
+
+    };
+  </script>
+</head>
+
+<body>
+  <div class="container mt-3">
+    <h2>업종별 업종 가맹 수</h2>
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" id="button">
+        연도 선택
+      </button>
+      <ul class="dropdown-menu" id="drop-menu">
+      </ul>
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>연도</th>
+          <th>업태</th>
+          <th>브랜드 수</th>
+          <th>브랜드 율</th>
+        </tr>
+      </thead>
+      <tbody id="list">
+
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
